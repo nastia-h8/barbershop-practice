@@ -5,3 +5,17 @@
     margin-left: auto;
     margin-right: auto;
 }
+.container--flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container--left-side,
+.container--right-side {
+    flex-basis: calc((100% - 30px) / 2);
+}
+
+.container--right-side {
+    padding-left: 34px;
+}

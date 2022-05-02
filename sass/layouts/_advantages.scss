@@ -1,0 +1,45 @@
+.advantages{
+    width: 370px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantages__item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 21px;
+    width: 170px;
+    height: 134px;
+    background-color: var(--light-theme-bg-color);
+}
+
+.advantages__item:nth-child(2n){
+margin-top: 30px;
+}
+
+.advantages__number{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+    color: var(--light-theme-title-color);
+}
+
+.advantages__symbol{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--accent-color);
+}
+
+.advantages__text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align:center;
+    color: var(--light-theme-title-color);
+}

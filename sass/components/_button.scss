@@ -1,6 +1,5 @@
 .button{
-
-    min-width:160px ;
+min-width:160px ;
 padding: 12px 20px;
 background-color: transparent;
 border-radius: 25px;
@@ -11,13 +10,19 @@ border: 1px solid var(--accent-color);
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--dark-theme-title-color);
     cursor: pointer;
-
     transition: background-color 300ms var(--timing-function);
 }
 
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+}
+
+.dark-theme__button{
+    color: var(--dark-theme-title-color);
+}
+
+.light-theme__button{
+    color: var(--light-theme-title-color);
 }
