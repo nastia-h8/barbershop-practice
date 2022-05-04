@@ -1,0 +1,40 @@
+.masters__title{
+    margin-bottom: 44px;
+}
+
+.masters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.masters__item{
+    flex-basis: calc((100% - 3 * 30px)/3);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.masters__name{
+margin-top: 30px;
+margin-bottom: 8px;
+
+font-size: 18px;
+line-height: 1.39;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--light-theme-title-color);
+}
+
+.masters__description{
+margin-bottom: 30px;
+
+font-size: 14px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+
+

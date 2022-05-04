@@ -1,0 +1,35 @@
+.masters-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masters-socials__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.masters-socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: background-color 300ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        background-color: #303030;
+    }
+}
+
+.masters-socials__icon {
+    fill: #303030;
+    transition: fill 300ms var(--timing-function);
+
+    .masters-socials__link:hover &,
+    .masters-socials__link:focus & {
+        fill: #FF6C00;
+    }
+}

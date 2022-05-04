@@ -1,9 +1,8 @@
 .hero__container{
     display: flex;
+}
 
-    }
-
-.hero__left-side{
+.hero--left-side{
 display: flex;
 align-items: flex-end;
 padding-left: 26px;
@@ -23,7 +22,7 @@ width: 100px;
     color: var(--dark-theme-title-color);
 }
 
-.hero__right-side{
+.hero--right-side{
     
     padding-top: 272px;
     padding-bottom: 206px;
@@ -34,4 +33,3 @@ width: 100px;
     background-color: #303030;
     flex-grow: 1;
 }
-    

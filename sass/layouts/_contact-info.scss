@@ -1,0 +1,138 @@
+.contact-info{
+    display: flex;
+
+}
+
+.contact-form__section,
+.contact-info__section{
+    background-color: #191C26;
+    width: 50%;
+}
+
+
+.contact-info__section{
+    background-image: url('../../images/dark-theme-bcg-2.png');
+}
+
+.contact-form__container,
+.contact-info__container{
+    width: 600px;
+}
+
+.contact-info__container{
+    padding-left: 100px;
+    padding-right: 246px;
+}
+
+.contact-form__title{
+    margin-bottom: 44px;
+}
+
+.contact-form__label{
+    position: relative;
+}
+
+.contact-form__label--name{
+    margin-right: 30px;
+}
+
+.contact-form__description{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.4);
+    transition: transform 300ms var(--timing-function);
+
+    .contact-form__input:focus+ & {
+        color: #fff;
+        transform: translateY(-20px);
+    }
+    
+    .contact-form__text:focus+ & {
+        color: #fff;
+        transform: translateY(-20px);
+    }
+
+    .contact-form__input:not(:placeholder-shown)+ & {
+        transform: translateY(-20px);
+    }
+
+    .contact-form__text:not(:placeholder-shown)+ & {
+        transform: translateY(-20px);
+    }
+}
+
+.contact-form__input, .contact-form__text{
+border:none;
+background-color: transparent;
+border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+
+    &:focus{
+        outline:none;
+        border-color:#fff;
+    }
+
+    &:not(:placeholder-shown) {
+        font-size: 11px;
+        line-height: 1.36;
+        letter-spacing: 0.1em;
+        color: rgba(157, 164, 189, 0.4);
+    }
+}
+
+.contact-form__input--name{
+width: 270px;
+}
+
+.contact-form__input--tel {
+width: 260px;
+}
+
+.contact-form__label--text{
+    display: block;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.contact-form__text{
+    width: 560px;
+    height: 75px;
+    resize: none;
+}
+
+.address{
+    margin-bottom: 70px;
+}
+
+.address__item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.address__link{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--dark-theme-text-color);
+}
+
+.address__link--left{
+    padding-left: 44px;
+}
+
+.address__icon{
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.contact-info__text{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--dark-theme-text-color);
+}

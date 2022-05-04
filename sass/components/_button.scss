@@ -12,17 +12,18 @@ border: 1px solid var(--accent-color);
     text-transform: uppercase;
     cursor: pointer;
     transition: background-color 300ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
-.button:hover,
-.button:focus {
-    background-color: var(--accent-color);
-}
 
-.dark-theme__button{
+.button--dark-theme{
     color: var(--dark-theme-title-color);
 }
 
-.light-theme__button{
+.button--light-theme{
     color: var(--light-theme-title-color);
 }

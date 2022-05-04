@@ -15,11 +15,13 @@
     width: 170px;
     height: 134px;
     background-color: var(--light-theme-bg-color);
+
+    &:nth-child(2n) {
+        margin-top: 30px;
+    }
 }
 
-.advantages__item:nth-child(2n){
-margin-top: 30px;
-}
+
 
 .advantages__number{
     font-weight: 700;
