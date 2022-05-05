@@ -1,8 +1,6 @@
 .company-socials {
   display: flex;
   align-items: center;
-  transform: rotate(-90deg);
-  transform-origin: top left;
 }
 
 .company-socials:before {
@@ -13,8 +11,9 @@
   background-color: #303030;
 }
 
-.company-socials--no-rotate {
-  transform: rotate(0deg);
+.company-socials-rotate {
+  transform: rotate(-90deg);
+  transform-origin: top left;
 }
 
 .company-socials__item:not(:last-child) {
